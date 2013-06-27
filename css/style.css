@@ -55,6 +55,7 @@ a:hover {
 }
 
 
+
 /* Navigation */
 
 #logo {
@@ -347,26 +348,30 @@ th {
 
 .notification-box {
 	position: fixed;
-	right: 2.8em;
-	top: 1.2em;
+	right: 3.2em;
+	top: 4em;
 	width: 20%;
-	height: 35em;
-	border: solid 2px black;
+	height: 38em;
+	border-radius: 2px;
+  border: solid 1px rgba(4, 156, 219, 0.3);
 	background-color: rgba(4, 156, 219, 0.25);
 }
 .notification-box h4 {
-	padding-left: 1.2em;
+	margin: 15px 0px 25px 0px;
+  text-align: center;
+  font-size: 1.9em;
 }
 
 .notification-list {
-	position: relative;
 	list-style: none;
-	left: 1.1em;
-	top: 0.2em;
+  width: 80%;
+  margin: 0px auto 10px auto;
 }
 
 .notification-item {
 	padding-bottom: 1.02em;
+  font-size: 1.2em;
+
 }
 
 .icon-hdd {
@@ -385,16 +390,19 @@ th {
 .chat-list {
 	list-style: none;
 	margin-bottom: 25%;
+  margin-left:3%;
+  margin-top: 5%;
 }
 
 .chat-item {
-	padding-bottom: 3%;
+	padding-bottom: 5%;
+  font-size: 1.2em;
 }
 
 .chat-input {
 	width: 90%;
 	height: 10%;
-	margin: 3% auto;
+	margin: 4% auto 5% auto;
 	border: solid 1px black;
 	background-color: white;
 }
@@ -406,25 +414,26 @@ th {
 
 .chat-input a {
 	float: right;
-	margin-right: 2%;
-	margin-top: 3.5%;
+	margin-right: 4%;
+	margin-top: 4%;
 }
 
 /* Title */ 
 
 .main-title {
 	color: #049cdb;
-	margin-top: 2em;
-	padding-bottom: 1.2em;
+	margin-top: 1.4em;
+	padding-bottom: 0.6em;
 	font-size: 52px;
-	margin-left: 9em;
+	margin-left: 9.6em;
 }
 
 /* Project */ 
 
 
-.accordian {
-	width: 55%;
+.my-accordian {
+	margin-left: 4%;
+ 
 }
 
 .accordian-group {
@@ -441,12 +450,12 @@ th {
 	font-size: 2.0em;
 	font-weight: 1400;
 	color: rgba(235, 52, 52, 1);
-	padding-top: 1.04em;
+	text-align: center;
 }
 
 .sub-task {
 	font-size: 1.5em;
-	padding: 1.02em 1.01em 1.02em 1.01em;
+	padding: 1.02em 1.01em 1.02em 3.3em;
 }
 
 #sub-task-highlight {
@@ -459,7 +468,6 @@ th {
 
 .goal-box {
 	position: relative;
-	top: 2.8em;
 	width: 18%;
 }
 
@@ -755,7 +763,6 @@ th {
 
 
 }
-
 
 
 
