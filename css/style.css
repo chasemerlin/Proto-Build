@@ -347,7 +347,7 @@ th {
 
 .notification-box {
 	position: fixed;
-	right: 1.2em;
+	right: 2.8em;
 	top: 1.2em;
 	width: 20%;
 	height: 35em;
@@ -437,6 +437,11 @@ th {
 
 }
 
+.well {
+	background-color: rgba(0, 0, 0, 0.15);
+	border-left: solid 8px rgba(235, 52, 52, 1);
+}
+
 #h5-project {
 	font-size: 2.0em;
 	font-weight: 1400;
@@ -446,19 +451,25 @@ th {
 
 .sub-task {
 	font-size: 1.5em;
-	padding-top: 1.02em;
+	padding: 1.02em 1.01em 1.02em 1.01em;
+}
+
+#sub-task-highlight {
+	border: solid 1px rgba(0, 255, 76, 0.55);
+	background-color: rgba(0, 255, 76, 0.55);
+	border-radius: 4px;
 }
 
 /* Goals */
 
 .goal-box {
 	position: relative;
-	top: 0.6em;
-	left: 1.0em;
-	width: 20%;
+	top: 2.8em;
+	width: 18%;
 }
 
 .goal-box h5 {
+	text-align: center;
 	color: #9d261d;
 	margin-top: 0px;
 	font-size: 1.4em;
@@ -470,8 +481,8 @@ th {
 }
 
 .goals {
-	font-size: 1.05em;
-	padding-top: 1.02em;
+	font-size: 1.5em;
+	padding-top: 1.8em;
 }
 
 #h5-goal {
