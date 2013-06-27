@@ -427,9 +427,8 @@ th {
 
 /* Project */ 
 
-#collapseOne, #collapseTwo, #collapseThree, #collapseFour {
-	overflow: visible;
-}
+
+
 
 #project-box h4 {
 	font-size: 1.8em;
@@ -439,7 +438,7 @@ th {
 	list-style: none;
 }
 
-#main-task-title h5 {
+h5 {
 	font-size: 1.8em;
 	color: #9d261d;
 	padding-top: 1.04em;
