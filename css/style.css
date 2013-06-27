@@ -364,6 +364,16 @@ th {
 
 }
 
+/* Title */ 
+
+.main-title {
+	color: #049cdb;
+	margin-top: 2em;
+	padding-bottom: 1.2em;
+	font-size: 52px;
+	margin-left: 9em;
+}
+
 /* Project */ 
 
 #project-box {
@@ -379,7 +389,38 @@ th {
 }
 
 #main-task-title h5 {
-	font-size: 1.4em;
+	font-size: 1.8em;
+	color: #9d261d;
+	padding-top: 1.04em;
+}
+
+.sub-task {
+	font-size: 1.2em;
+	padding-top: 1.02em;
+}
+
+/* Goals */
+
+.goal-box {
+	position: relative;
+	top: 0.6em;
+	left: 4.0em;
+}
+
+.goal-box h5 {
+	color: ##9d261d;
+	margin-top: 0px;
+	font-size: 1.8em;
+	padding-top: 1.04em;
+}
+
+.goal-list {
+	list-style: none;
+}
+
+.goals {
+	font-size: 1.2em;
+	padding-top: 1.02em;
 }
 
 /* Highlight */ 
@@ -387,9 +428,9 @@ th {
 .highlight-box {
 	position: relative;
 	top: 0.6em;
-	left: 30.0em;
-	width: 24.0em;
-	height: 9.0em;
+	left: 5em;
+	width: 52em;
+	height: 18em;
 	border: solid 2px rgba(255, 0, 0, 1);
 	background-color: rgba(0, 0, 0, 0.25);
 }
