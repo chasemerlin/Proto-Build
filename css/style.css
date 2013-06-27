@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
+ul {
+	list-style: none;
+}
+
 p {
     margin: 0 10px 10px 0;
 }
@@ -346,8 +350,9 @@ th {
 	right: 1.2em;
 	top: 1.2em;
 	width: 30%;
-	height: 25%;
+	height: 35em;
 	border: solid 2px black;
+	background-color: rgba(4, 156, 219, 0.25);
 }
 .notification-box h4 {
 	padding-left: 1.2em;
@@ -357,11 +362,57 @@ th {
 	position: relative;
 	list-style: none;
 	left: 1.1em;
-	top: 1em;
+	top: 0.2em;
 }
 
 .notification-item {
+	padding-bottom: 1.02em;
+}
 
+.icon-hdd {
+	color: #16a085;
+}
+
+.notification-break {
+	border-bottom: solid 1px red;
+	width: 85%;
+}
+
+.chat-box {
+	border: solid 1px black;
+	width: 90%;
+	height: 48%;
+	margin: 4% auto 0px auto;
+	background-color: white;
+	overflow: scroll;
+}
+
+.chat-list {
+	list-style: none;
+	margin-bottom: 25%;
+}
+
+.chat-item {
+	padding-bottom: 3%;
+}
+
+.chat-input {
+	width: 90%;
+	height: 10%;
+	margin: 3% auto;
+	border: solid 1px black;
+	background-color: white;
+}
+
+.chat-input input {
+	width: 75%;
+	height: 80%;
+}
+
+.chat-input a {
+	float: right;
+	margin-right: 2%;
+	margin-top: 3.5%;
 }
 
 /* Title */ 
@@ -376,8 +427,8 @@ th {
 
 /* Project */ 
 
-#project-box {
-
+#collapseOne, #collapseTwo, #collapseThree, #collapseFour {
+	overflow: visible;
 }
 
 #project-box h4 {
@@ -408,7 +459,7 @@ th {
 }
 
 .goal-box h5 {
-	color: ##9d261d;
+	color: #9d261d;
 	margin-top: 0px;
 	font-size: 1.8em;
 	padding-top: 1.04em;
@@ -426,6 +477,7 @@ th {
 /* Highlight */ 
 
 .highlight-box {
+	display: none;
 	position: relative;
 	top: 0.6em;
 	left: 5em;
