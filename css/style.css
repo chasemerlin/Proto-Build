@@ -339,237 +339,60 @@ th {
 }
 
 
-/* Section 00 */ 
+/* Notification */ 
 
-#section00 {
-	background:#ecf0f1;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
+.notification-box {
+	position: fixed;
+	right: 1.2em;
+	top: 1.2em;
+	width: 30%;
+	height: 25%;
+	border: solid 2px black;
+}
+.notification-box h4 {
+	padding-left: 1.2em;
 }
 
-h3 {
-	font-size: 3.0em;
-	text-align: center;
-	color: #049cdb;
+.notification-list {
+	position: relative;
+	list-style: none;
+	left: 1.1em;
+	top: 1em;
 }
 
-h4 {
-	font-size: 2.2em;
-	text-align: center;
-	color: #16a085;
-	border-right: solid 1px black;
+.notification-item {
+
 }
 
-project-view {
-	display: inline;
+/* Project */ 
+
+#project-box {
+
 }
 
-#section00 li {
-	margin-left: 1.5em;
+#project-box h4 {
+	font-size: 1.8em;
 }
 
-
-/* Section 1 */ 
-
-#section1 {
-	background:#ecf0f1;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	-o-background-size: 100% auto;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-}
-
-.my-tasks h2 {
-	padding-bottom: 1.4em;
-	color: #049cdb;
-}
-
-#section1 .my-tasks {
-	text-align: center;
-}
-
-#section1 .my-tasks .task-list {
+.main-tasks {
 	list-style: none;
 }
 
-.project {
-	border-bottom: solid 6px #16a085;
-	border-radius: 8px;
+#main-task-title h5 {
+	font-size: 1.4em;
 }
 
-#box-size {
- width: 20.076923076923077%;
-}
+/* Highlight */ 
 
-/* Section 2 */ 
-
-#section2{
-}
-
-#section2 h6 {
-	padding:15px;
-}
-.toolbox-header {
-	font-weight: 500;
-	margin-top: 5px;
-	margin-bottom: -5px;
-}
-
-.toolbox-item {
-	height: 20px;
-}
-
-.skill {
-    text-align: center;
-}
-
-#top-margin {
-	margin-top: 0;
-}
-
-/* Section 3 */ 
-
-#section3 {
-	background-image:url(../img/project-bg.jpg);
-	color: #F1F1F1;
-}
-
-#section3 h2 {
-	margin-left: -5px;
-}
-
-
-#section3 .content img {
-	max-width: 96%;
-	padding: 2%;
-	background-color: #F1F1F1;
-}
-
-
-/* Section 4 */
-
-#section4  h2 {
-	margin-left: -4px;
-}
-
-#section4 .read-more a, #section4 .read-more a:hover {
-	color: #151515;
-}
-
-#section4 .content .span4, #section4 .content .span6 {
-	padding-right: 20px;
-}
-
-#section4 .content {
-	min-height: 300px;
-}
-
-#section4 .content .span8 {
-	display: none;
-}
-
-#section4 .content .span8.current {
-	display: block;
-}
-
-#section4 ul.article-tags {
-    border-top: 1px solid #151515;
-    margin: 40px 0 0;
-}
-
-#section4 ul.article-tags li {
-    border-bottom: 1px solid #151515;
-    cursor: pointer;
-    display: block;
-    font-size: 17px; font-size: 1.7rem;
-    height: 36px;
-    line-height: 36px;
-    overflow: hidden;
-    padding-left: 45px;
-    position: relative;
-}
-
-#section4 ul.article-tags li:hover, #section4 ul.article-tags li.current {
-    background-color: #1abc9c;
-    color:#ecf0f1;
-}
-
-#section4 ul.article-tags i {
-    left: 15px;
-    font-size: 16px; font-size: 1.6rem;
-    position: absolute;
-    top: 10px;
-}
-
-#section4 h4 {
-	border-bottom: 1px solid #151515;
-    height: 35px;
-    margin-bottom: 18px;
-}
-
-
-/* Section 5 */
-
-#section5 {
-	background:#1abc9c;
-	color: #F1F1F1;
-	padding-bottom: 0px;
-}
-
-#section5 h4.intro {
-	border-bottom: 1px solid #F1F1F1;
-    height: 35px;
-    margin-bottom: 18px;
-}
-
-#section5 .content {
+.highlight-box {
 	position: relative;
+	top: 0.6em;
+	left: 30.0em;
+	width: 24.0em;
+	height: 9.0em;
+	border: solid 2px rgba(255, 0, 0, 1);
+	background-color: rgba(0, 0, 0, 0.25);
 }
-
-#section5 .content .alt {
-	margin-top: 20px;
-}
-
-#section5 .content .alt h4 {
-	line-height: 24px;
-	margin: 0;
-	padding-right: 20px;
-}
-
-#section5 .content .alt h4, #section6 .content .alt span {
-	display: inline-block;
-}
-
-#section5 .content .alt h5 {
-	display: inline;
-    line-height: 20px;
-    margin: 0;
-    padding-right: 10px;
-}
-
-#section5 .content .span4 {
-	padding-right: 25px;
-}
-
-#section5 .btn-default {
-    margin-top: 15px;
-}
-
-#section5 #footer {
-	margin: 200px 0 40px;
-}
-
-#section5 #footer p {
-	font-size: 14px; font-size: 1.4rem;
-}
-
-
-
-
 
 /* Media Queries */
 
