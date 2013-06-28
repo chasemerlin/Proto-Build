@@ -354,22 +354,22 @@ th {
 
 .notification-box {
 	position: fixed;
-	padding-bottom: 3%;
-  right: 2em;
-	top: 2em;
+  right: 1.8em;
+	top: 2.1em;
   bottom: 2em;
 	width: 23%;
+  padding-bottom: 1.5%;
 	background-color: rgba(254, 254, 254, 1);
   border-bottom: solid 5px rgba(52, 152, 219, 1);
   border-left: solid 5px rgba(52, 152, 219, 1);
   border-right: solid 5px rgba(52, 152, 219, 1);
 }
+
 .notification-box h4 {
 	margin: 0px 0px 20px 0px;
   text-align: center;
-  font-size: 1.9em;
-  padding-bottom: 5.5%;
-  padding-top: 6%;
+  font-size: 2.0em;
+  padding: 0.7em 0;
   border-bottom: solid 1px rgba(52, 152, 219, 1);
   color: white;
   background-color: rgba(52, 152, 219, 0.9);
@@ -381,7 +381,8 @@ th {
 }
 
 .notification-list {
-	list-style: none;
+	color: rgba(52, 152, 219, 1);
+  list-style: none;
   width: 80%;
   margin: 0px auto 10px auto;
 
@@ -390,7 +391,7 @@ th {
 .notification-item {
 	padding-bottom: 1.02em;
   font-size: 1.2em;
-
+  font-weight: bold;
 }
 
 .icon-hdd {
@@ -398,21 +399,18 @@ th {
 }
 
 .chat-box {
-	width: 100%;
+	width: 90%;
 	height: 48%;
-	margin: 4% auto 0px auto;
+	margin: 0 auto 0px auto;
 	background-color: white;
 	overflow: scroll;
-  padding-bottom: 12px;
+  background-color: rgba(189, 195, 199,0.3);
 
 }
-
 .chat-list {
-	width: 86%;
+	width: 100%;
   list-style: none;
-	margin: 0 auto 25% auto;
-  background-color: rgba(189, 195, 199,0.3);
-  border: solid 2px rgba(149, 165, 166,0.5);
+	margin: 0 auto 10% auto;
 }
 
 .chat-item {
@@ -420,26 +418,33 @@ th {
   margin-bottom: 3%;
   font-size: 1.2em;
   width: 95%;
+  margin: 0 auto 3% auto;
   border-radius: 5px;
+  border-bottom: solid 1px rgba(149, 165, 166,0.5);
+}
+
+.chat-item:first-child {
+  margin-top: 4%;
 }
 
 .chat-input {
 	width: 90%;
-	height: 12%;
-	margin: 6% auto 5% auto;
+	height: 10%;
+	padding: 7% 0 5% 0;
+  margin: 0 auto;
 	background-color: white;
   border-radius: 5px;
+  background-color: rgba(189, 195, 199,0.3);
 }
 
 .chat-input textarea {
-  width: 70%;
-  margin-left: 1%;
+  width: 65%;
+  margin-left: 5%;
 }
 
 .chat-input a {
-	float: right;
-	margin-right: 5.5%;
-	margin-top: 7%;
+	margin-left: 2%;
+  margin-bottom: 1%;
 }
 
 
@@ -447,9 +452,9 @@ th {
 
 
 .my-accordian {
-	margin-left: 3.4%;
+	margin-left: 2%;
   padding: 0;
-  margin-top: 2%;
+  margin-top: 2.2%;
   background-color: rgba(254,254,254,1);
   border: solid 5px rgba(231, 76, 60,1.0);
 }
@@ -467,6 +472,7 @@ th {
 
 .accordion-group {
 	text-align: center;
+  margin-bottom: 0;
 }
 
 #collapseOne {
@@ -483,28 +489,39 @@ th {
 	font-weight: 1400;
 	color: rgba(231, 76, 60,1.0);
 	text-align: center;
-  padding-left: 3%;
 }
 
 .sub-task {
 	font-size: 1.5em;
-	padding: 1.02em 0 1.02em 1em;
+	padding: 1.01em 0 1.01em 0;
   margin: 0;
-  text-align: left
+  text-align: center;
 }
 
+.sub-task small {
+  color: rgba(231, 76, 60,1.0);
+}
+
+.sub-task i {
+  display: inline-block;
+  text-align: left;
+}
 #sub-task-highlight {
 	border-radius: 4px;
   border: solid 1px rgba(231, 76, 60,1.0);
   background-color: rgba(231, 76, 60, 0.95);
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 /* Goals */
 
 .goal-box {
-	width: 22%;
-  margin-top: 3%;
-  padding-bottom: 2%;
+	width: 25%;
+  margin-top: 2.2%;
+  margin-left: 1.1%;
+  padding-bottom: 0;
   border: solid 4px rgba(142, 68, 173,1.0);
   background-color: rgba(254,254,254,1);
 }
@@ -520,18 +537,33 @@ th {
 }
 
 .goal-list {
-	list-style: none;
+	width: 95%;
+  list-style: none;
+  margin: 0 auto;
 }
 
 .goals {
 	font-size: 1.5em;
 	padding-top: 1.8em;
+  text-align: center;
+}
+
+.goals small {
+  color: rgba(142, 68, 173,1.0);
 }
 
 .goals:first-child {
   
 }
 
+.goal-box p {
+  width: 10%;
+  margin: 8% auto 0 auto;
+}
+
+.icon-plus {
+  font-size: 1.7em;
+}
 /* Highlight */ 
 
 .highlight-box {
